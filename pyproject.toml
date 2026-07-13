@@ -1,0 +1,12 @@
+[project]
+name = "hackaton"
+version = "0.1.0"
+description = "DataHub ingestion project"
+readme = "README.md"
+requires-python = ">=3.11,<3.12"
+dependencies = [
+    "acryl-datahub[sqlalchemy,datahub-rest]>=1.6.0.13",
+]
+
+[tool.uv]
+package = false

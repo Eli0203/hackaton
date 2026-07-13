@@ -1,0 +1,11 @@
+# Secrets — .env holds the token signing key/salt. Never commit.
+.env
+.sk_env
+
+# Python / uv
+.venv/
+__pycache__/
+*.pyc
+
+# Claude Code local config — not part of the project
+.claude/
